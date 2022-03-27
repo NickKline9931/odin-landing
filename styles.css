@@ -5,10 +5,11 @@ header {
     height: 300px;
     flex-direction: column;    
     justify-content: flex-start;
-            
+    margin-top: -13px; 
+    margin-left: -10px;   
+    margin-right: -8px;        
 }
     
-
 button {
    background-color: #3882f6;
    color: white;
@@ -45,8 +46,103 @@ h1 {
 
  }
 
-a {
+
+ a {
     text-decoration: none;
     color: white;
     font-size: 15px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+
+div p {
+    width: 130px;
+ }
+
+.container {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     }
+ 
+.container p {
+     margin-left: 100px;
+     margin-right: 100px;
+    }
+
+button {
+    border-radius: 8px;
+}
+
+.image {
+    gap: 275px;
+    margin-right: 65px;
+    margin-left: 44px;;
+}
+
+.section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 70px;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.quote {
+font-size: 36px;
+width: 800px;
+font-style: italic;
+}
+
+.thor {
+    margin-top: -30px;
+    margin-left: 690px;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    padding: 20px;
+    background-color: #3882f6;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.white {
+    border: 2px solid white;
+    margin-left: 750px;
+    margin-top: -47px;
+}
+
+.call {
+    margin-bottom: -10px;
+    margin-left: 70px;
+}
+
+.sign {
+    width: 400px;
+    margin-left: 70px;
 }
